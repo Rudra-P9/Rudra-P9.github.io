@@ -1,0 +1,27 @@
+body{
+    background: black;
+    font-family:  'Times New Roman', Times, serif;
+    margin: 40px;
+    font: white;
+}
+h1{
+    color: #B026FF;
+    text-align: center;
+    font-family: cursive;
+}
+.about h2{
+    color: #B026FF;
+    font-family: fantasy;
+}
+.skills h2{
+    color: #B026FF;
+    font-family: fantasy;
+}
+.projects h2{
+    color: #B026FF;
+    font-family: fantasy;
+}
+.contact h2{
+    color: #B026FF;
+    font-family: fantasy;
+}
