@@ -8,20 +8,38 @@ h1{
     color: #B026FF;
     text-align: center;
     font-family: cursive;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px #7500b8;
 }
-.about h2{
+h2{
     color: #B026FF;
     font-family: fantasy;
+    font-size: 2em;
+    margin-top: 30px;
+    text-shadow: 1px 1px 6px #7500b8;
 }
-.skills h2{
-    color: #B026FF;
-    font-family: fantasy;
+.about{
+    width:100%;
+    background: rgba(255,255,255, 0.1);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255,255,255, 0.2);
 }
-.projects h2{
-    color: #B026FF;
-    font-family: fantasy;
+.skills{
+    width:100%;
+    background: rgba(255,255,255, 0.1);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255,255,255, 0.2);
 }
-.contact h2{
-    color: #B026FF;
-    font-family: fantasy;
+.projects{
+    width:100%;
+    background: rgba(255,255,255, 0.1);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255,255,255, 0.2);
+}
+.contact{
+    width:100%;
+    background: rgba(255,255,255, 0.1);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255,255,255, 0.2);
 }
