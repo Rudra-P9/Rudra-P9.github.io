@@ -1,10 +1,13 @@
-body{
-    background: black;
-    font-family:  'Times New Roman', Times, serif;
+/* Body styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
     margin: 40px;
-    font: white;
 }
-h1{
+
+/* Header styles */
+h1 {
     color: #B026FF;
     text-align: center;
     font-family: cursive;
@@ -12,34 +15,79 @@ h1{
     margin-bottom: 20px;
     text-shadow: 2px 2px 8px #7500b8;
 }
-h2{
+
+/* Sub-header styles */
+h2 {
     color: #B026FF;
     font-family: fantasy;
     font-size: 2em;
     margin-top: 30px;
     text-shadow: 1px 1px 6px #7500b8;
 }
-.about{
-    width:100%;
-    background: rgba(255,255,255, 0.1);
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(255,255,255, 0.2);
+
+/* Image styles */
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
-.skills{
-    width:100%;
-    background: rgba(255,255,255, 0.1);
+
+/* About, Skills, Projects, Contact container styles */
+.about, .skills, .projects, .contact {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
     padding: 20px;
-    box-shadow: 0 0 10px rgba(255,255,255, 0.2);
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
 }
-.projects{
-    width:100%;
-    background: rgba(255,255,255, 0.1);
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(255,255,255, 0.2);
+
+/* Project section styles */
+.project {
+    margin-bottom: 30px;
 }
-.contact{
-    width:100%;
-    background: rgba(255,255,255, 0.1);
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(255,255,255, 0.2);
+
+/* Link styles */
+a {
+    color: #FF6FFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+/* Resume link styling */
+.about a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #B026FF;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.about a:hover {
+    background-color: #FF6FFF;
+}
+
+/* Contact section styles */
+.contact a {
+    color: #FF6FFF;
+    font-size: 1.1em;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
