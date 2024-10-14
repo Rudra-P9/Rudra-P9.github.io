@@ -48,11 +48,18 @@ img {
 /* Project section styles */
 .projects { display:flex; flex-wrap:wrap; } /* condensed to save space */ 
 .project {
+    margin-bottom: 30px;
+}
+.project {
     width: 40%;
     margin: 10px;
     padding: 20px 10px;
     background: black; /* pick a color */ border-radius: 25%;
     }
+.project p {
+    text-align: center;
+    margin: 15px;
+}
 
 /* Link styles */
 a {
