@@ -3,7 +3,8 @@ body {
     background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    margin: 40px;
+    margin: 0; /* Adjusted margin for full-width layout */
+    padding: 20px; /* Added padding for better spacing */
 }
 
 /* Header styles */
@@ -12,7 +13,7 @@ h1 {
     text-align: center;
     font-family: cursive;
     font-size: 3em;
-    margin-bottom: 20px;
+    margin: 20px 0; /* Adjusted margin for spacing */
     text-shadow: 2px 2px 8px #7500b8;
 }
 
@@ -21,7 +22,7 @@ h2 {
     color: #B026FF;
     font-family: fantasy;
     font-size: 2em;
-    margin-top: 30px;
+    margin: 30px 0 15px 0; /* Adjusted margin for spacing */
     text-shadow: 1px 1px 6px #7500b8;
 }
 
@@ -31,34 +32,38 @@ img {
     max-width: 600px;
     height: auto;
     display: block;
-    margin: 0 auto 20px auto;
+    margin: 20px auto; /* Centered image with margin */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-/* About, Skills, Projects, Contact container styles */
+/* Container styles for sections */
 .about, .skills, .projects, .contact {
     width: 100%;
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
-    margin-bottom: 30px;
+    margin: 30px 0; /* Adjusted margin for spacing */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     border-radius: 10px;
 }
 
 /* Project section styles */
-.projects { display:flex; flex-wrap:wrap; } /* condensed to save space */ 
-.project {
-    margin-bottom: 30px;
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjusted for better layout */
 }
+
 .project {
-    width: 40%;
-    margin: 10px;
-    padding: 20px 10px;
-    background: black; /* pick a color */ border-radius: 25%;
-    }
+    width: 45%; /* Adjusted width for better spacing */
+    margin: 10px 0; /* Adjusted margin for spacing */
+    padding: 20px;
+    background: black;
+    border-radius: 10px; /* Adjusted border radius */
+}
+
 .project p {
     text-align: center;
-    margin: 15px;
+    margin: 15px 0; /* Adjusted margin for spacing */
 }
 
 /* Link styles */
@@ -101,4 +106,25 @@ p {
 
 .contact a:hover {
     text-decoration: underline;
+}
+
+/* About section layout */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centered content */
+}
+
+.about img {
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(126, 14, 201);
+}
+
+.about p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
 }
